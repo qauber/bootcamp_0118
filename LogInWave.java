@@ -34,6 +34,8 @@ public class LogInWave {
        wave.navigate().back();
        lsThread.sleep(2000);
        wave.navigate().forward();
+	wave.close();	
+		
   
 		
 

@@ -30,7 +30,7 @@ public class LogInWave {
        wave.findElement(By.xpath("/html/body/div[2]/header/nav/div[2]/ul[2]/li/a/span")).click();
        Thread.sleep(2000);
        wave.findElement(By.xpath("/html/body/div[2]/aside[1]/div/nav/ul/li[2]/a/span")).click();
-       Thread.sleep(5000);
+       //Thread.sleep(5000);
        wave.navigate().back();
        lsThread.sleep(2000);
        wave.navigate().forward();

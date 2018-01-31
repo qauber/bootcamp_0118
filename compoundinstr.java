@@ -23,6 +23,7 @@ public class compoundinstr {
 
         ci=amount-principle;
 
+        //bmnnnm,nm,nmn
         System.out.println("compound interest="+ci);
 
     }
